@@ -22,14 +22,20 @@
 
 }
 
-.alert-info {
+body {
     display: flex;
-    justify-content: center;
-    background-color: lightblue;
+    margin: 1.5em;
 }
 
-body {
-    margin: 1.5em;
+.alert-info {
+    justify-content: center;
+    background-color: lightblue;
+    border-color: lightgray;
+    border-width: .1em;
+}
+
+.alert-info > a {
+    text-decoration: none;
 }
 
 h1 {
